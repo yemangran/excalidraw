@@ -32,7 +32,6 @@ import NunitoLatinExt from "./assets/Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8H
 import NunitoCyrilic from "./assets/Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTA3j6zbXWjgevT5.woff2";
 import NunitoCyrilicExt from "./assets/Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTk3j6zbXWjgevT5.woff2";
 import NunitoVietnamese from "./assets/Nunito-Regular-XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTs3j6zbXWjgevT5.woff2";
-import Muyao from "./assets/muyao.ttf";
 export class Fonts {
   // it's ok to track fonts across multiple instances only once, so let's use
   // a static member to reduce memory footprint
@@ -210,7 +209,7 @@ export class Fonts {
     // TODO: let's tweak this once we know how `register` will be exposed as part of the custom fonts API
     const _register = register.bind(fonts);
     _register("Muyao",FONT_METADATA[FONT_FAMILY.Excalifont], {
-      uri: Muyao,
+      uri: '/muyao.ttf',
     })
 
     _register("Virgil", FONT_METADATA[FONT_FAMILY.Virgil], {
