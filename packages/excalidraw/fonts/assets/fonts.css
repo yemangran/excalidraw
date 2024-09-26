@@ -33,3 +33,9 @@
   style: normal;
   display: swap;
 }
+
+@font-face {
+  font-family: "Muyao";
+  src: url(./muyao.ttf);
+  display: swap;
+}

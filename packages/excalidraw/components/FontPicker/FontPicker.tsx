@@ -30,6 +30,12 @@ export const DEFAULT_FONTS = [
     testId: "font-family-normal",
   },
   {
+    value: FONT_FAMILY.Muyao,
+    icon: FontFamilyNormalIcon,
+    text: t("labels.normal"),
+    testId: "font-family-normal",
+  },
+  {
     value: FONT_FAMILY["Comic Shanns"],
     icon: FontFamilyCodeIcon,
     text: t("labels.code"),

@@ -104,6 +104,13 @@ module.exports.woff2BrowserPlugin = () => {
         type="font/woff2"
         crossorigin="anonymous"
       />
+      <link
+        rel="preload"
+        href="/muyao.ttf"
+        as="font"
+        type="font/ttf"
+        crossorigin="anonymous"
+      />
     `,
         );
       }
