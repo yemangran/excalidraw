@@ -84,7 +84,8 @@
     "pwacompat": "2.0.17",
     "roughjs": "4.6.4",
     "sass": "1.51.0",
-    "tunnel-rat": "0.1.2"
+    "tunnel-rat": "0.1.2",
+    "vite-plugin-fonts": "0.7.0"
   },
   "devDependencies": {
     "@babel/core": "7.24.5",

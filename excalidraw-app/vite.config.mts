@@ -6,6 +6,7 @@ import { VitePWA } from "vite-plugin-pwa";
 import checker from "vite-plugin-checker";
 import { createHtmlPlugin } from "vite-plugin-html";
 import { woff2BrowserPlugin } from "../scripts/woff2/woff2-vite-plugins";
+import Font from 'vite-plugin-font';
 
 // To load .env.local variables
 const envVars = loadEnv("", `../`);
@@ -216,6 +217,7 @@ export default defineConfig({
     createHtmlPlugin({
       minify: true,
     }),
+    Font.vite()
   ],
   publicDir: "../public",
 });
