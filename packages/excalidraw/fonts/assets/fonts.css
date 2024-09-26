@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: "Muyao";
-  src: url(/muyao.ttf) format('truetype');
+  src: url(./muyao.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
